@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    print(int(a//b))
-    print(float(a/b))
+    n = int(input())
+    
+    for i in range(n):
+        print(i*i)
